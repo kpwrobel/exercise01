@@ -1,4 +1,4 @@
-#Formularz
+# Formularz
 
 	- [ ] Na formularzu powinniśmy móc wprowadzić dane takie jak:
 		- Imię*
@@ -12,7 +12,7 @@
 	- [ ] Enter wywołuje dodanie nowej osoby
 	- [ ] Nie można dodać nowej osoby o takim samym nazwisku i imieniu
 	
-#Tabelka:
+# Tabelka:
 
 	- [ ] Domyślnie Osoby powinny być wyświetlone w tabelce posortowane alfabetycznie po nazwisku
 	- [ ] *Klucz sortowania można zmieniać po wciśnięciu w header tabelki
@@ -21,3 +21,4 @@
 	
 	
 Zachowaj wprowadzone dane przy użyciu localstorage
+
