@@ -3,7 +3,11 @@ var allPersons = [];
 
 window.onload = () => {
   const peopleTable = document.getElementById("peopleTable");
-  const thead = document.getElementById("tableBody");
+  const tableBody = document.getElementById("tableBody");
+
+  generateList(sourceArray,tableBody);
+
+
 };
 
 let testList = [
@@ -36,18 +40,19 @@ console.log(testJson);
 let sourceArray = JSON.parse(testJson);
 console.log(sourceArray);
 
-function generateList(tab) {
+function generateList(tab,parent) {
   tab.forEach((elem) => {
-    let tr = document.createElement("tr");
+    var tr1 = document.createElement("tr");
     for (var key in elem) 
-    {var valueElement = elem[key];
-    console.log("Wartosc " + key + "Druga ", valueElement);
-    createTD(tr, valueElement);
+    {
+        let valueElement = elem[key];
+        createTD(tr1,valueElement)
     }
-
+    console.log("-------------------------")
+    parent.appendChild(tr1);
   });
 }
-generateList(sourceArray);
+
 function createTD(destination, value) {
   let td = document.createElement("td");
   td.innerText = value;
