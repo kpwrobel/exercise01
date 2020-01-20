@@ -1,16 +1,21 @@
 # Formularz
 
 	- [ ] Na formularzu powinniśmy móc wprowadzić dane takie jak:
-		- Imię*
-		- Nazwisko*
-		- Wybrać z dropdown'a płeć
-		- Nr telefonu
-		- Email - walidacja czy na pewno jest to email
+		- Imię* // name
+		- Nazwisko* // surname
+		- Wybrać z dropdown'a płeć // gender
+		- Nr telefonu /mobile
+		- Email - walidacja czy na pewno jest to email /email
+
+		// personList - JSON 
+		
 	- [ ] *pola wymagane
 	- [ ] Formularz powinien posiadać walidacje - jeżeli pola wymagane nie są wprowadzone (lub są pustymi spacjami) to nie można dodać nowej osoby.
 	- [ ] Tabulator powinien przeskakiwać do kolejnego inputu
 	- [ ] Enter wywołuje dodanie nowej osoby
 	- [ ] Nie można dodać nowej osoby o takim samym nazwisku i imieniu
+
+	
 	
 # Tabelka:
 
