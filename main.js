@@ -26,8 +26,8 @@ window.onload = () => {
             mobile: mobileFromInput.value,
             email: emailFromInput
         }
-        let szuk = document.querySelector("tbody");
-        szuk.innerHTML = ""
+        //let tableBody = document.querySelector("tbody");
+        //tableBody.innerHTML = ""
         generateList(sourceArray,personContainer);  
         alert("Przycisk submit");
 
@@ -48,6 +48,7 @@ window.onload = () => {
 
 /////// Genereting table
 function generateList(tab,parent) {
+    parent.innerHTML = "";
     //var body = document.createElement("tbody");
     tab.forEach((elem) => {
         var tr1 = document.createElement("tr");
