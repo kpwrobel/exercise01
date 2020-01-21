@@ -41,9 +41,6 @@ window.onload = () => {
     }
 }
     
-    
-   
-
 
 
 /////// Genereting table
